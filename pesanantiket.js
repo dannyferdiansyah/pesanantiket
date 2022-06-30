@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
         }
     ];
     // res.send("Hello Quotes!");
-    res.status(200).json(pesanantiket[0]);
+    res.status(200).json(pesanantiket);
 
 });
 
