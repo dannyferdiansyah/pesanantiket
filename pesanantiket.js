@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
     ];
     res.send("Hello Quotes!");
     res.status(200).json(pesanantiket["id"]);
-
+    print("hadeh");
 });
 
 app.listen(port, () => {
