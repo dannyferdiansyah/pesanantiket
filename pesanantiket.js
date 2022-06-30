@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
     const pesanantiket = [
         {
             "id": "1",
-            "image": "https:\/\/s2.rdbuz.com\/buslogos\/country\/IDN\/logo\/18107.png",
+            "image": "https://s2.rdbuz.com/buslogos/country/IDN/logo/18107.png",
             "jam": "11:07:00",
             "harga": "270.000",
             "estimasi": "32",
