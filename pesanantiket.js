@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
             "tujuan": "Terminal Bungurasih - Terminal Kampung Rambutan"
         }
     ];
-    // res.send("Hello Quotes!");
+    res.send("Hello Quotes!");
     res.status(200).json(pesanantiket);
 
 });
